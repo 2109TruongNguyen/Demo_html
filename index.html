@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <!-- Các thẻ HTML hay dùng 
+        1. h1-h6 
+        2. p
+        3. img- ảnh dán link
+        4. a - anchor_ thẻ neo dán dán link của trang khác
+        5. ul, li- dùng đẻ hiển hiện bảng danh sách(unordered list, list item)
+        6. table
+        7. input - có nhiều loại như text, checkbox,.
+        8. button
+        9.div- tạo một lớp bao quanh
+    -->
+    <!-- Phần đầu -->
+    <head>
+        <title>Hello_HTML</title>
+        <meta charset="utf-8">
+        <!-- link liên kết file CSS với HTML dùng external -->
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- CSS internal -->
+        <style>
+            h1{
+                color: rgb(255, 0, 0);
+                font-size: 25px;
+            }
+
+
+        </style>
+    </head>
+
+    <!-- Phần thân -->
+    <body>
+        <div class="box" title="this is a red box"></div>
+        <div>
+            <h1 class="hello" >chào Nguyễn Nhật Trường!! chào Phạm Mai Anh</h1>
+            <!-- Inline -->
+            <h1 style="color: red; font-size: 50px;">chào Nguyễn Nhật Trường!! chào Phạm Mai Anh</h1>  
+            <h1 id="F1">chào Phạm Mai Anh</h1>
+        <p>bài làm đầu tiên với HTML nên hơi bỡ ngỡ học trên F8 </p>
+        
+        <input name="Gender" type="text">
+        <input name="Gender" type="radio">
+        <input name="Gender" type="checkbox">
+
+        <button>Đồng Ý</button>
+
+
+
+        <img src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg"  width="100%"  alt="Ảnh hồ nước">
+        <a href="https://www.w3schools.com/java/">Hello tới w3 school java </a>
+        <ul>    
+            <li>trường Đại Học FPT</li>
+            <li>trường Đại Học TDT</li>
+        </ul>
+
+        <table>
+            <thead>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Địa chỉ</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Trường</td>
+                    <td> HCM</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>
